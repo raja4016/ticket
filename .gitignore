@@ -1,3 +1,58 @@
+#CUSTOM FOR DJANGO
+# Remove this line if present
+
+# Virtual environment
+venv/
+env/
+
+# Database files
+*.sqlite3
+*.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.pyc
+
+# Django migration files
+*/__pycache__/
+**/migrations/
+
+# Local settings
+settings_local.py
+
+# Logs and temporary files
+*.log
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated files
+staticfiles/
+media/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# macOS Finder metadata files
+.DS_Store
+
+# Environment configuration files
+.env
+.env.*
+
+# Secrets and sensitive information
+#secret_key
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
